@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'bungee';
+    src: url('../fonts/bungee.regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'chau-philomene-one';
+    src: url('../fonts/chau-philomene-one.regular.ttf') format('truetype');
+}
+
+body {
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+h1 {
+    font-family: 'bungee';
+    font-size: min(2vw, 100px);
+    color: brown;
+}
+
+p {
+    font-family: 'chau-philomene-one';
+    font-size: min(1vw, 100px);
+    clear: both;
+}

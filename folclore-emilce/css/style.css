@@ -8,3 +8,65 @@
     src: url('../fonts/chau-philomene-one.regular.ttf') format('truetype');
 }
 
+body {
+    padding-left: 2vw;
+}
+
+h1 {
+    font-family: 'bungee';
+    font-size: min(2.3vw, 100px);
+}
+
+p {
+    font-family: 'chau-philomene-one';
+    font-size: min(2vw, 100px);
+    width: 66%;
+    float: left;
+}
+p#sereia {
+    font-size: min(1.7vw, 100px);
+}
+
+img#boto {
+    width: 30%;
+    float: right;
+}
+img#cuca {
+    width: 23%;
+    float: right;
+}
+img#curupira {
+    width: 21%;
+    float: right;
+}
+img#lobisomem {
+    width: 20%;
+    float: right;
+}
+img#mula {
+    width: 19%;
+    float: right;
+}
+img#saci {
+    width: 23%;
+    float: right;
+}
+img#sereia {
+    width: 28%;
+    float: right;
+}
+img#vitoria {
+    width: 29%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+h5 {
+    clear: both;
+    font-size: min(1.3vw, 100px);
+    color: brown;
+}
