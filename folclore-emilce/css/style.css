@@ -15,6 +15,7 @@ body {
 h1 {
     font-family: 'bungee';
     font-size: min(2.3vw, 100px);
+    color: brown;
 }
 
 p {
@@ -67,6 +68,7 @@ a {
 
 h5 {
     clear: both;
+    font-family: 'chau-philomene-one';
     font-size: min(1.3vw, 100px);
     color: brown;
 }
