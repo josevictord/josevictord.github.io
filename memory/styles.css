@@ -54,6 +54,8 @@
   }
   
   a {
+    color: #000;
+    font-family: sans-serif;
     text-decoration: none;
     padding: 20px;
   }
