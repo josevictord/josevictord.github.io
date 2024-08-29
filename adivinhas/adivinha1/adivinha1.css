@@ -1,0 +1,76 @@
+body{
+    color: white;
+    font-family: Rockwell;
+    background-color: grey;
+  }
+  h2{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: orange;
+    margin-right: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+  }
+  p{
+    vertical-align: center;
+    float: left;
+    padding-left: 40px;
+  }
+  .question{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+    margin-right: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    vertical-align: middle;
+    line-height: 64px;
+  }
+  .answer{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: green;
+    text-align: center;
+    visibility: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+  }
+  .questionb{
+    color: green;
+    background-color:black;
+    border: none;
+  }
+  .questiona{
+    color: black;
+    background-color:green;
+    border: none;
+  }
+  .meme{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .meme-img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .meme-top{
+    font-family: impact;
+    font-size: 50px;
+    position: absolute;
+    left: -25px;
+    top: -40px;
+  }
+  .meme-bottom{
+    font-family: impact;
+    font-size: 50px;
+    position: absolute;
+    left: 25px;
+    top: 220px;
+  }
