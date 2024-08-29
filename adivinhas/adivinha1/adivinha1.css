@@ -1,76 +1,75 @@
-body{
-    color: white;
-    font-family: Rockwell;
-    background-color: grey;
-  }
-  h2{
-    border-radius: 20px;
-    padding: 20px;
-    background-color: orange;
-    margin-right: 600px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 700px;
-  }
-  p{
-    vertical-align: center;
-    float: left;
-    padding-left: 40px;
-  }
-  .question{
-    border-radius: 20px;
-    padding: 20px;
-    background-color: black;
-    margin-right: 600px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 700px;
-    vertical-align: middle;
-    line-height: 64px;
-  }
-  .answer{
-    border-radius: 20px;
-    padding: 20px;
-    background-color: green;
-    text-align: center;
-    visibility: hidden;
-    margin-right: auto;
-    margin-left: auto;
-    width: 700px;
-  }
-  .questionb{
-    color: green;
-    background-color:black;
-    border: none;
-  }
-  .questiona{
-    color: black;
-    background-color:green;
-    border: none;
-  }
-  .meme{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .meme-img{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .meme-top{
-    font-family: impact;
-    font-size: 50px;
-    position: absolute;
-    left: -25px;
-    top: -40px;
-  }
-  .meme-bottom{
-    font-family: impact;
-    font-size: 50px;
-    position: absolute;
-    left: 25px;
-    top: 220px;
-  }
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.question {
+  padding: 20px;
+  margin-right: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  vertical-align: middle;
+  line-height: 64px;
+}
+
+.question h1 {
+  border: 20px solid #f00;
+  color: #000;
+  font-family: 'OpenSansBold';
+  font-size: 6vh;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+p {
+  vertical-align: center;
+  float: left;
+  padding-left: 40px;
+}
+
+.answer{
+  visibility: hidden;
+  margin-right: auto;
+  margin-left: auto; 
+  width: 50%;
+  text-align: center;
+
+}
+h2 {
+  color: #333;
+  font-family: 'OpenSansBold';
+  font-size: 6vh;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.questionb{
+  border: none;
+  background-color: #fff;
+  font-family: 'OpenSansBold';
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.questiona{
+  color: #333;
+  border: none;
+  font-size: 2.5vh;
+}
+h3 {
+  text-align: right;
+  font-family: 'OpenSansBold';
+  padding-right: 22vh;
+}
+a {
+  color: brown;
+  text-decoration: none;
+}

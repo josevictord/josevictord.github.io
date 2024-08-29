@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+  }
+  
+  body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .question {
+    padding: 20px;
+    margin-right: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    vertical-align: middle;
+    line-height: 64px;
+  }
+  
+  .question h1 {
+    border: 20px solid #f00;
+    color: #000;
+    font-family: 'OpenSansBold';
+    font-size: 6vh;
+    line-height: 150%;
+    text-transform: uppercase;
+    padding: 40px;
+  }
+  
+  p {
+    vertical-align: center;
+    float: left;
+    padding-left: 40px;
+  }
+  
+  .answer{
+    visibility: hidden;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 50%;
+    text-align: center;
+  
+  }
+  h2 {
+    color: #333;
+    font-family: 'OpenSansBold';
+    font-size: 6vh;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .questionb{
+    border: none;
+    background-color: #fff;
+    font-family: 'OpenSansBold';
+    font-size: 3vh;
+    cursor: pointer;
+  }
+  
+  .questiona{
+    color: #333;
+    border: none;
+    font-size: 2.5vh;
+  }
+  h3 {
+    text-align: right;
+    font-family: 'OpenSansBold';
+    padding-right: 22vh;
+  }
+  a {
+    color: brown;
+    text-decoration: none;
+  }
